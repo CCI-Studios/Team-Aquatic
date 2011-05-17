@@ -1,3 +1,6 @@
 [submodule "plg_ie6"]
 	path = plg_ie6
 	url = git@github.com:CCI-Studios/IE6-compatability-notification-bar.git
+[submodule "template/templates/team_aquatic/html"]
+	path = template/templates/team_aquatic/html
+	url = git@github.com:CCI-Studios/Joomla-1.5-Template-Overrides.git
