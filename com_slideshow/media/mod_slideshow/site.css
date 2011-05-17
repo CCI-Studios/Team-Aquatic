@@ -61,15 +61,14 @@
 
 .mod_slideshow .indicators {
 	text-align: center;
-	margin: 17px 0 0;
+	margin: 10px 0 0;
 }
 .mod_slideshow .indicator {
-	background: #000;
+	background: url(/templates/team_aquatic/images/indicator.png) center no-repeat;
 	border-radius: 4px;
 	display: inline-block;
-	height: 8px;
-	width: 8px;
+	padding: 0 6px;
 	
 	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
-.mod_slideshow .indicator.current { background: #c2b59b; }
+.mod_slideshow .indicator.current { background-image: url(/templates/team_aquatic/images/indicator_current.png); }
