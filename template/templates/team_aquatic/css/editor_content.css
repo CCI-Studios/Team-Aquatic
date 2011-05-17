@@ -1,0 +1,25 @@
+/* editor content */
+.readmore {
+  background: url(../images/readmore.png) no-repeat;
+  padding-left: 14px;
+}
+.readmore > * {
+  background: url(../images/readmore.png) right -26px no-repeat;
+  color: white !important;
+  display: block;
+  line-height: 26px;
+  padding-right: 14px;
+}
+#bottom .readmore {
+  bottom: 12px;
+  position: absolute;
+  right: 23px;
+}
+.question {
+  color: #0E76BC;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.question + .answer {
+  margin-top: 0;
+}

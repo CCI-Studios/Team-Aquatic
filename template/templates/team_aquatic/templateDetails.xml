@@ -28,6 +28,9 @@
 	</files>
 
 	<positions>
+		<position>top</position>
+		<position>header</position>
+		<position>bottom</position>
 		<position>hidden</position>
 	</positions>
 

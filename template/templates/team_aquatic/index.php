@@ -35,6 +35,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="/templates/<?= $this->template ?>/resources/favicon.ico">
+	
 	<link rel="apple-touch-icon" href="/templates/<?= $this->template ?>/resources/apple-touch-icon.png">
 
 	<!-- load css -->
@@ -54,25 +55,30 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 
 <body class="<?= $menu ?>">
 
-	<div id="wrapper">
-		<header>
-			<jdoc:include type="modules" name ="header" style="xhtml" />
-		</header>
+	<div id="top"><div class="clearfix">
+		<jdoc:include type="modules" name="top" style="xhtml" />
+	</div></div>
+	
+	<div id="header"><div class="clearfix">
+		<jdoc:include type="modules" name="header" style="xhtml" />
+	</div></div>
+	
+	<div id="content"><div class="clearfix">
+		<jdoc:include type="component" />
+	</div></div>
+	
+	<div id="bottom"><div><div class="clearfix">
+		<jdoc:include type="modules" name="bottom" style="xhtml" />
+	</div></div></div>
 
-		<div id="main">
-			<aside>
-				<jdoc:include type="modules" name="left" style="xhtml" />
-			</aside>
-
-			<article>
-				<jdoc:include type="component" />
-			</article>
+	<div id="footer"><div><div class="clearfix">
+		<div class="left">
+			&copy; TEAM Aquatic Inc, <?= date('Y') ?>. All Rights Reserved.
 		</div>
-
-		<footer>
-			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</footer>
-	</div>
+		<div class="right">
+			Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a>
+		</div>
+	</div></div></div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
@@ -84,6 +90,7 @@ $analytics = "UA-XXXXX-X"; // FIXME Update to client ID
 		<script src="/templates/<?= $this->template ?>/js/columns.js"></script>
 		<script src="/templates/<?= $this->template ?>/js/dropmenu.js"></script>
 		<script src="/templates/<?= $this->template ?>/js/html5.js"></script>
+		<script src="/templates/<?= $this->template ?>/js/faq.js"></script>
 	<?php else: ?>
 		<script>
 			var _gaq=[["_setAccount","<?php echo $analytics?>"],["_trackPageview"]];

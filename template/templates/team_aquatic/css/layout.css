@@ -1,1 +1,49 @@
 /* layout */
+#top > div,
+#header > div,
+#content > div,
+#bottom > div,
+#footer > div {
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  width: 940px;
+}
+#top {
+  background: white;
+  padding: 1px 0;
+}
+#top > div {
+  margin: 35px auto 20px;
+  padding-bottom: 15px;
+}
+#header {
+  background: url(../images/header_bg.jpg) center top repeat-x;
+  /* FIXME fix be image */
+
+  padding-top: 1px;
+}
+#header > div {
+  margin: 28px auto 25px;
+}
+#content > div {
+  margin: 20px auto;
+}
+body.home #content > div {
+  font-size: 14px;
+}
+#bottom > div {
+  padding-bottom: 10px;
+}
+body.home #bottom > div > div {
+  background: url(../images/divider.png) repeat-x;
+  padding-top: 20px;
+}
+#footer > div > div {
+  background: url(../images/divider.png) top repeat-x;
+  font-size: 10px;
+  padding: 8px 0 20px;
+}
+#footer a {
+  color: #333;
+}
