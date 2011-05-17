@@ -37,11 +37,11 @@
 			
 			if (index == current) {
 				fx.set({
-					right: 0,
+					right: 0
 				});
 			} else {
 				fx.set({
-					right: 735,
+					right: 735
 				});
 			}
 			fxs.push(fx);
