@@ -24,13 +24,14 @@
   padding-top: 1px;
 }
 #header > div {
-  margin: 28px auto 25px;
+  padding: 28px 10px 25px;
 }
 #content > div {
-  margin: 20px auto;
+  padding-top: 20px;
 }
 body.home #content > div {
   font-size: 14px;
+  padding-top: 0;
 }
 #bottom > div {
   padding-bottom: 10px;
