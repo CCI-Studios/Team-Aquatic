@@ -17,6 +17,8 @@
 	</files>
 	
 	<params>
-		<param type="textarea" name="title" label="title" />
+		<param type="text" name="title" label="Title" rows="5" cols="50" />
+		<param type="textarea" name="description" label="Description" rows="5" cols="50" />
+		<param type="text" name="path" label="Image Directory" />
 	</params>
 </install>
