@@ -53,7 +53,7 @@
 				current = 0;
 			
 			fxs[current].start({
-				right: 0,
+				right: 0
 			});
 			images[current].addClass('current');
 			images[current].setStyle('z-index', 3);
