@@ -3,14 +3,14 @@ set :stages, %w(staging production)
 set :default_stage, "staging"
 require "capistrano/ext/multistage"
 
-set :application, "Sarnia Gives"
+set :application, "Team Aquatic"
 
 # repository info
-set :repository,  "git@github.com:CCI-Studios/Sarnia-Gives.git"
+set :repository,  "git@github.com:CCI-Studios/Team-Aquatic.git"
 set :scm, :git
 
 # ssh settings
-set :user, "sgives"
+set :user, "staging"
 set :use_sudo, false
 
 # Joomla
@@ -136,6 +136,14 @@ namespace :deploy do
   task :finalize_update, :except => { :no_release => true } do
     run "chmod -R g+w #{latest_release}" if fetch(:group_writable, true)
   end
+  
+  task :finalize do
+    run <<-CMD
+      cd #{latest_release} &&
+      git submodule init &&
+      git submodule update
+    CMD
+  end
 
   task :symlink_modules, :except => { :no_release => true } do
     extensions.each do |path|
@@ -149,3 +157,4 @@ namespace :deploy do
 end
 
 after "deploy:symlink", "deploy:symlink_modules"
+after "deploy:finalize_update", "deploy:finalize"

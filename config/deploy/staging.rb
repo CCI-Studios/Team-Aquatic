@@ -1,10 +1,10 @@
 # repository info
-set :branch, "development"
+set :branch, "master"
 
 # This may be the same as your `Web` server
-role :app, "sarniagives.com"
+role :app, "ccistaging.com"
 
 # directories
-set :deploy_to, "/home/sgives/subdomains/dev"
+set :deploy_to, "/home/staging/subdomains/ta"
 set :public, "#{deploy_to}/public_html"
-set :extensions, %w[plg_ie6 public template]
+set :extensions, %w[com_slideshow plg_ie6 public template]
