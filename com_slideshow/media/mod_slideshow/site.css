@@ -65,10 +65,7 @@
 }
 .mod_slideshow .indicator {
 	background: url(/templates/team_aquatic/images/indicator.png) center no-repeat;
-	border-radius: 4px;
-	display: inline-block;
+	display: inline;
 	padding: 0 6px;
-	
-	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
 .mod_slideshow .indicator.current { background-image: url(/templates/team_aquatic/images/indicator_current.png); }
