@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://www.joomla.org/xml/dtd/1.5/module-install.dtd">
+<install type="module" version="1.5.0" method="upgrade">
+	<name>Slideshow</name>
+	<author>Jonathan bennett</author>
+	<creationDate>May 2011</creationDate>
+	<copyright></copyright>
+	<license>GNU GPLv3 - http://www.gnu.org/licenses/gpl.html</license>
+	<authorEmail>info@nooku.org</authorEmail>
+	<authorUrl>www.nooku.org</authorUrl>
+	<version>0.7.0</version>
+	<description>Example Nooku Framework Module</description>
+	<files>
+		<file module="mod_slideshow">mod_slideshow.php</file>
+		<file>html.php</file>
+		<file>tmpl/default.php</file>
+	</files>
+	
+	<params>
+		<param type="textarea" name="title" label="title" />
+	</params>
+</install>
