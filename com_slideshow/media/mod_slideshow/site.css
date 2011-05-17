@@ -2,15 +2,18 @@
 	border-radius: 13px;
 	position: relative;
 	z-index: 1;
+	
+	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
 
 .mod_slideshow .inner {
-	border-radius: 13px;
+
 	overflow: hidden;
 }
 
 .mod_slideshow .details {
 	background: #1379bd;
+	border-radius: 13px 0 0 13px;
 	color: #fff;
 	float: left;
 	height: 220px;
@@ -19,6 +22,8 @@
 	text-align: center;
 	width: 165px;
 	z-index: 4;
+	
+	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
 
 .mod_slideshow .title {
@@ -47,10 +52,12 @@
 	top: 0;
 	z-index: 2;
 }
-	
-.mod_slideshow .image.current {
-	right: 0;
+.mod_slideshow .image img { 
+	border-radius: 13px;
+	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
+	
+.mod_slideshow .image.current { right: 0; }
 
 .mod_slideshow .indicators {
 	text-align: center;
@@ -62,5 +69,7 @@
 	display: inline-block;
 	height: 8px;
 	width: 8px;
+	
+	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
 .mod_slideshow .indicator.current { background: #c2b59b; }
