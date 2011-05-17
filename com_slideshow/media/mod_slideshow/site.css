@@ -1,0 +1,66 @@
+.mod_slideshow {
+	border-radius: 13px;
+	position: relative;
+	z-index: 1;
+}
+
+.mod_slideshow .inner {
+	border-radius: 13px;
+	overflow: hidden;
+}
+
+.mod_slideshow .details {
+	background: #1379bd;
+	color: #fff;
+	float: left;
+	height: 220px;
+	padding: 15px 20px;
+	position: relative;
+	text-align: center;
+	width: 165px;
+	z-index: 4;
+}
+
+.mod_slideshow .title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.mod_slideshow .description {
+	font-size: 14px;
+	line-height: 1.5em;
+	margin-top: 20px;
+}
+
+.mod_slideshow .images {
+	float: left;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	width: 735px;
+}
+
+.mod_slideshow .image {
+	position: absolute;
+	right: 100%;
+	top: 0;
+	z-index: 2;
+}
+	
+.mod_slideshow .image.current {
+	right: 0;
+}
+
+.mod_slideshow .indicators {
+	text-align: center;
+	margin: 17px 0 0;
+}
+.mod_slideshow .indicator {
+	background: #000;
+	border-radius: 4px;
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+}
+.mod_slideshow .indicator.current { background: #c2b59b; }
