@@ -30,7 +30,7 @@ textarea{overflow:auto;}
 body,select,input,textarea{background-color:#f4f2ed;color:#444;font-family:Helvetica,Arial,sans-serif;}
 h1,h2,h3,h4,h5,h6{font-weight:bold;margin:0.7em 0 0.3em;}
 h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child{margin-top:0;}
-h1{font-size:25px;margin:0;}
+h1{font-size:25px;margin-bottom:1em;}
 h2{font-size:18px;}
 p{margin:1em 0 0;}
 p:first-child{margin-top:0;}
@@ -53,13 +53,12 @@ label{color:#555;cursor:pointer;font-size:11px;font-weight:bold;margin-right:12p
 input[type=text],input[type=email],input[type=password],select,textarea{background:-moz-linear-gradient(top, #efefef, #ffffff);background:-webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));border:1px solid #CCC;border-radius:3px;font-size:11px;padding:4px 5px;width:300px;}
 input[type=submit],button{background:#EFEFEF;border:1px solid #c5d6df;padding:9px 15px;}
 #top>div,#header>div,#content>div,#bottom>div,#footer>div{margin:0 auto;padding:0 10px;position:relative;width:940px;}
-#top{background:white;padding:1px 0;}
-#top>div{margin:35px auto 20px;padding-bottom:15px;}
-#header{background:url(../images/header_bg.jpg) center top repeat-x;padding-top:1px;}
-#header>div{padding:28px 10px 25px;}
-#content>div{padding-top:20px;}
-body.home #content>div{font-size:14px;padding-top:0;}
-#bottom>div{padding-bottom:10px;}
+#top{background:white;padding:35px 0 20px;}
+#top>div{padding-bottom:15px;}
+#header{background:url(../images/header_bg.jpg) center top repeat-x;padding-top:29px;margin-bottom:25px;}
+#content{margin:20px 0;}
+body.home #content>div{font-size:14px;}
+#bottom{margin-bottom:10px;}
 body.home #bottom>div>div{background:url(../images/divider.png) repeat-x;padding-top:20px;}
 #footer>div>div{background:url(../images/divider.png) top repeat-x;font-size:10px;padding:8px 0 20px;}
 #footer a{color:#333;}

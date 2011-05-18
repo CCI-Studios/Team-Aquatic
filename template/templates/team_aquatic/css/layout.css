@@ -11,30 +11,26 @@
 }
 #top {
   background: white;
-  padding: 1px 0;
+  padding: 35px 0 20px;
 }
 #top > div {
-  margin: 35px auto 20px;
   padding-bottom: 15px;
 }
 #header {
   background: url(../images/header_bg.jpg) center top repeat-x;
   /* FIXME fix be image */
 
-  padding-top: 1px;
+  padding-top: 29px;
+  margin-bottom: 25px;
 }
-#header > div {
-  padding: 28px 10px 25px;
-}
-#content > div {
-  padding-top: 20px;
+#content {
+  margin: 20px 0;
 }
 body.home #content > div {
   font-size: 14px;
-  padding-top: 0;
 }
-#bottom > div {
-  padding-bottom: 10px;
+#bottom {
+  margin-bottom: 10px;
 }
 body.home #bottom > div > div {
   background: url(../images/divider.png) repeat-x;
