@@ -13,11 +13,13 @@
 			}
 		} while (temp && temp.hasClass('answer'));
 		
-		if (answers.length === 0) return;
+		if (answers.length === 0) {
+			return;
+		}
 		
 		question.setStyle('cursor', 'pointer');
 		
-		temp = new Element('div', { class: 'answers' });
+		temp = new Element('div', { 'class': 'answers' });
 		temp.adopt(answers);
 		temp.inject(question, 'after');
 		
@@ -26,12 +28,12 @@
 		});
 		fx.hide();
 		
-		question.addEvent('click', function() {
+		question.addEvent('click', function () {
 			fx.toggle();
 		});
 	}
 	
-	window.addEvent('domready', function() {
+	window.addEvent('domready', function () {
 		$$('.question').each(function (q) {
 			setupQuestion(q);
 		});
