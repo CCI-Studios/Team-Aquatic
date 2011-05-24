@@ -14,7 +14,7 @@
 		<div class="images">
 			<? foreach ($images as $index=>$image): ?>
 			<div class="image <?= ($index == 0)? 'current':'' ?>">
-				<img src="/images/stories/<?= $params->get('path') .'/'. $image?>" />
+				<img src="/images/stories/<?= $params->get('path') .'/'. $image?>" alt="" />
 			</div>
 			<? endforeach; ?>
 		</div>
