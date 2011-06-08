@@ -1,6 +1,6 @@
 /* layout */
 
-#top > div, #header > div,
+#top > div, #header > div > div,
 #content > div, #bottom > div,
 #footer > div {
 	margin: 0 auto;
@@ -17,12 +17,12 @@
 	padding-bottom: 15px;
 }
 	
-#header {
-	background: url(../images/header_bg.jpg) center top repeat-x; /* FIXME fix be image */
+#header { background: url(../images/header_shadow.png) center top repeat-x; }
+#header > div { 
+	background: url(../images/header_bg.png) center no-repeat;
 	padding-top: 29px;
 	margin-bottom: 25px;
 }
-#header > div {}
 	
 #content { margin: 20px 0; }
 #content > div {}
