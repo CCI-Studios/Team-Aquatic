@@ -1,4 +1,10 @@
 /* editor content */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
 .readmore {
   background: url(../images/readmore.png) no-repeat;
   padding-left: 14px;
