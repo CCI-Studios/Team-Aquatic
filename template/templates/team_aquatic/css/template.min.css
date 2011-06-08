@@ -1,91 +1,605 @@
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
-blockquote,q{quotes:none;}
-blockquote:before,blockquote:after,q:before,q:after{content:"";content:none;}
-ins{background-color:#ff9;color:#000;text-decoration:none;}
-mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold;}
-del{text-decoration:line-through;}
-abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help;}
-table{border-collapse:collapse;border-spacing:0;}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
-input,select{vertical-align:middle;}
-body{font:13px/1.231 sans-serif;*font-size:small;}
-select,input,textarea,button{font:99% sans-serif;}
-pre,code,kbd,samp{font-family:monospace,sans-serif;}
-html{overflow-y:scroll;}
-a:hover,a:active{outline:none;}
-ul,ol{margin-left:2em;}
-ol{list-style-type:decimal;}
-nav ul,nav li{margin:0;list-style:none;list-style-image:none;}
-small{font-size:85%;}
-strong,th{font-weight:bold;}
-td{vertical-align:top;}
-sub,sup{font-size:75%;line-height:0;position:relative;}
-sup{top:-0.5em;}
-sub{bottom:-0.25em;}
-pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word;padding:15px;}
-textarea{overflow:auto;}
-.ie6 legend,.ie7 legend{margin-left:-7px;}
-.ie7 img{-ms-interpolation-mode:bicubic;}
-body,select,input,textarea{background-color:#f4f2ed;color:#444;font-family:Helvetica,Arial,sans-serif;}
-h1,h2,h3,h4,h5,h6{font-weight:bold;margin:0.7em 0 0.3em;}
-h1:first-child,h2:first-child,h3:first-child,h4:first-child,h5:first-child,h6:first-child{margin-top:0;}
-h1{font-size:25px;margin-bottom:1em;}
-h2{font-size:18px;}
-p{margin:1em 0 0;}
-p:first-child{margin-top:0;}
-a,a:active,a:visited{color:#0E76BC;text-decoration:none;}
-a:hover{text-decoration:underline;}
-input[type="radio"]{vertical-align:text-bottom;}
-input[type="checkbox"]{vertical-align:bottom;}
-.ie7 input[type="checkbox"]{vertical-align:baseline;}
-.ie6 input{vertical-align:text-bottom;}
-label,input[type="button"],input[type="submit"],input[type="image"],button{cursor:pointer;}
-button,input,select,textarea{margin:0;}
-input:invalid,textarea:invalid{border-radius:1px;-moz-box-shadow:0px 0px 5px red;-webkit-box-shadow:0px 0px 5px red;box-shadow:0px 0px 5px red;}
-.no-boxshadow input:invalid,.no-boxshadow textarea:invalid{background-color:#f0dddd;}
-button{width:auto;overflow:visible;}
-fieldset{border:1px solid #E5E5E5;border-radius:5px;margin:10px;padding:10px;}
-legend{color:#555;font-size:10px;font-weight:bold;margin:0 10px;padding:0 5px;text-shadow:1px 1px 1px #FFF;text-transform:uppercase;}
-form dt{clear:both;float:left;margin-bottom:2px;text-align:right;width:15%;}
-form dd{float:left;margin:0 0 15px;width:75%;}form dd small{color:#AAA;display:block;font-size:11px;}
-label{color:#555;cursor:pointer;font-size:11px;font-weight:bold;margin-right:12px;}
-input[type=text],input[type=email],input[type=password],select,textarea{background:-moz-linear-gradient(top, #efefef, #ffffff);background:-webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));border:1px solid #CCC;border-radius:3px;font-size:11px;padding:4px 5px;width:300px;}
-input[type=submit],button{background:#EFEFEF;border:1px solid #c5d6df;padding:9px 15px;}
-#top>div,#header>div,#content>div,#bottom>div,#footer>div{margin:0 auto;padding:0 10px;position:relative;width:940px;}
-#top{background:white;padding:35px 0 20px;}
-#top>div{padding-bottom:15px;}
-#header{background:url(../images/header_bg.jpg) center top repeat-x;padding-top:29px;margin-bottom:25px;}
-#content{margin:20px 0;}
-body.home #content>div{font-size:14px;}
-#bottom{margin-bottom:10px;}
-body.home #bottom>div>div{background:url(../images/divider.png) repeat-x;padding-top:20px;}
-#footer>div>div{background:url(../images/divider.png) top repeat-x;font-size:10px;padding:8px 0 20px;}
-#footer a{color:#333;}
-.moduletable_hmenu ul{margin:0;list-style:none;}
-.moduletable_hmenu li{display:inline;padding-left:28px;position:relative;}.moduletable_hmenu li:hover ul{display:block;}
-.moduletable_hmenu ul ul{background:white;border:1px solid #c5d6df;border-top:none;display:none;left:50%;margin-left:-49px;padding-bottom:5px;position:absolute;top:100%;width:125px;}.moduletable_hmenu ul ul li{display:list-item;padding:3px 5px;text-align:center;}
-.moduletable_hmenu li>a,.moduletable_hmenu li>span{color:#c2b59b;font-size:14px;}.moduletable_hmenu li>a:hover,.moduletable_hmenu li>span:hover{color:#c5d6df;text-decoration:none;}
-#top .moduletable_hmenu{bottom:0;position:absolute;right:0;}
-#bottom .moduletable_hmenu{clear:both;}#bottom .moduletable_hmenu ul{text-align:center;}
-#bottom .moduletable_hmenu li{background:url(../images/menu_divider.png) left no-repeat;padding:0 6px 0 7px;}
-#bottom .moduletable_hmenu li:first-child{background:none;}
-#bottom .moduletable_hmenu li>a,#bottom .moduletable_hmenu li>span{color:#333;font-size:10px;line-height:22px;}
-#bottom .moduletable{background:no-repeat;float:left;height:202px;margin-bottom:20px;overflow:hidden;padding:20px 23px 15px 47px;position:relative;width:240px;}
-#bottom .moduletable h3{font-size:18px;margin:0 0 15px;}
-#bottom .moduletable.green{background-image:url(../images/module_green.png);}
-#bottom .moduletable.blue{background-image:url(../images/module_blue.png);}
-#bottom .moduletable.grey{background-image:url(../images/module_grey.png);}
-.clr,.clear{clear:both;}
-.left{float:left;}
-.right{float:right;}
-.hidden{display:none;}
-::-moz-selection{background:#c5d6df;color:#333;text-shadow:none;}
-::selection{background:#c5d6df;color:#333;text-shadow:none;}
-.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
-.ie6 .clearfix,.ie7 .clearfix{zoom:1;display:block;}
-.readmore{background:url(../images/readmore.png) no-repeat;padding-left:14px;}
-.readmore>*{background:url(../images/readmore.png) right -26px no-repeat;color:white !important;display:block;line-height:26px;padding-right:14px;}
-#bottom .readmore{bottom:12px;position:absolute;right:23px;}
-.question{color:#0E76BC;font-weight:bold;margin-bottom:0;}
-.question+.answer{margin-top:0;}
+/* reset */
+/**
+ * HTML5 ✰ Boilerplate
+ *
+ * style.css contains a reset, font normalization and some base styles.
+ *
+ * Credit is left where credit is due.
+ * Much inspiration was taken from these projects:
+ * - yui.yahooapis.com/2.8.1/build/base/base.css
+ * - camendesign.com/design/
+ * - praegnanz.de/weblog/htmlcssjs-kickstart
+ */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input, select {
+  vertical-align: middle;
+}
+/**
+ * Font normalization inspired by YUI Library's fonts.css: developer.yahoo.com/yui/
+ */
+body {
+  font: 13px/1.231 sans-serif;
+  *font-size: small;
+}
+/* Hack retained to preserve specificity */
+select,
+input,
+textarea,
+button {
+  font: 99% sans-serif;
+}
+/* Normalize monospace sizing:
+   en.wikipedia.org/wiki/MediaWiki_talk:Common.css/Archive_11#Teletype_style_fix_for_Chrome */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, sans-serif;
+}
+/**
+ * Minimal base styles.
+ */
+/* Always force a scrollbar in non-IE */
+html {
+  overflow-y: scroll;
+}
+/* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {
+  outline: none;
+}
+ul, ol {
+  margin-left: 2em;
+}
+ol {
+  list-style-type: decimal;
+}
+/* Remove margins for navigation lists */
+nav ul, nav li {
+  margin: 0;
+  list-style: none;
+  list-style-image: none;
+}
+small {
+  font-size: 85%;
+}
+strong, th {
+  font-weight: bold;
+}
+td {
+  vertical-align: top;
+}
+/* Set sub, sup without affecting line-height: gist.github.com/413930 */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+pre {
+  /* www.pathf.com/blogs/2008/05/formatting-quoted-code-in-blog-posts-css21-white-space-pre-wrap/ */
+
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+textarea {
+  overflow: auto;
+}
+/* www.sitepoint.com/blogs/2010/08/20/ie-remove-textarea-scrollbars/ */
+.ie6 legend, .ie7 legend {
+  margin-left: -7px;
+}
+/* Bicubic resizing for non-native sized IMG:
+   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+/* elements */
+body,
+select,
+input,
+textarea {
+  background-color: #f4f2ed;
+  color: #444;
+  /* off black */
+
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0.7em 0 0.3em;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0;
+}
+h1 {
+  font-size: 25px;
+  margin-bottom: 1em;
+}
+h2 {
+  font-size: 13px;
+}
+p {
+  margin: 1em 0 0;
+}
+p:first-child {
+  margin-top: 0;
+}
+a, a:active, a:visited {
+  color: #0E76BC;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+em {
+  font-style: italic;
+}
+img.left {
+  margin: 0 10px 10px 0;
+}
+img.right {
+  margin: 0 0 10px 10px;
+}
+#content img {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 2px 5px #333;
+  -moz-box-shadow: 0 2px 5px #333;
+  box-shadow: 0 2px 5px #333;
+  display: block;
+  behavior: url(/templates/team_aquatic/resources/PIE.htc);
+}
+/* forms */
+/* Align checkboxes, radios, text inputs with their label by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+input[type="radio"] {
+  vertical-align: text-bottom;
+}
+input[type="checkbox"] {
+  vertical-align: bottom;
+}
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline;
+}
+.ie6 input {
+  vertical-align: text-bottom;
+}
+/* Hand cursor on clickable input elements */
+label,
+input[type="button"],
+input[type="submit"],
+input[type="image"],
+button {
+  cursor: pointer;
+}
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+}
+/* Colors for form validity */
+/* TODO Update valid/invalid colors */
+input:invalid, textarea:invalid {
+  border-radius: 1px;
+  -moz-box-shadow: 0px 0px 5px red;
+  -webkit-box-shadow: 0px 0px 5px red;
+  box-shadow: 0px 0px 5px red;
+}
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid {
+  background-color: #f0dddd;
+}
+/* Make buttons play nice in IE:
+   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {
+  width: auto;
+  overflow: visible;
+}
+/* forms 1 */
+fieldset {
+  border: 1px solid #E5E5E5;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+legend {
+  color: #555;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0 10px;
+  padding: 0 5px;
+  text-shadow: 1px 1px 1px #FFF;
+  text-transform: uppercase;
+}
+form dt {
+  clear: both;
+  float: left;
+  margin-bottom: 2px;
+  text-align: right;
+  width: 15%;
+}
+form dd {
+  float: left;
+  margin: 0 0 15px;
+  width: 75%;
+}
+form dd small {
+  color: #AAA;
+  display: block;
+  font-size: 11px;
+}
+label {
+  color: #555;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: bold;
+  margin-right: 12px;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea {
+  background: -moz-linear-gradient(top, #efefef, #ffffff);
+  background: -webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  font-size: 11px;
+  padding: 4px 5px;
+  width: 300px;
+}
+input[type=submit], button {
+  background: #EFEFEF;
+  border: 1px solid #c5d6df;
+  padding: 9px 15px;
+}
+/* layout */
+#top > div,
+#header > div > div,
+#content > div,
+#bottom > div,
+#footer > div {
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  width: 940px;
+}
+#top {
+  background: white;
+  padding: 35px 0 20px;
+}
+#top > div {
+  padding-bottom: 15px;
+}
+#header {
+  background: url(../images/header_shadow.png) center top repeat-x;
+}
+#header > div {
+  background: url(../images/header_bg.png) center no-repeat;
+  padding-top: 29px;
+  margin-bottom: 25px;
+}
+#content {
+  margin: 20px 0;
+}
+body.home #content > div {
+  font-size: 14px;
+}
+#bottom {
+  margin-bottom: 10px;
+}
+body.home #bottom > div > div {
+  background: url(../images/divider.png) repeat-x;
+  padding-top: 35px;
+}
+#footer > div > div {
+  background: url(../images/divider.png) top repeat-x;
+  font-size: 10px;
+  padding: 8px 0 20px;
+}
+#footer a {
+  color: #333;
+}
+/* modules */
+/* hmenu */
+.moduletable_hmenu ul {
+  margin: 0;
+  list-style: none;
+}
+.moduletable_hmenu li {
+  display: inline;
+  padding-left: 28px;
+  position: relative;
+}
+.moduletable_hmenu li:hover ul {
+  display: block;
+}
+.moduletable_hmenu ul ul {
+  background: white;
+  border: 1px solid #c5d6df;
+  border-top: none;
+  display: none;
+  left: 50%;
+  margin-left: -49px;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 100%;
+  width: 125px;
+}
+.moduletable_hmenu ul ul li {
+  display: list-item;
+  padding: 3px 5px;
+  text-align: center;
+}
+.moduletable_hmenu li > a, .moduletable_hmenu li > span {
+  color: #c2b59b;
+  font-size: 14px;
+}
+.moduletable_hmenu li > a:hover, .moduletable_hmenu li > span:hover {
+  color: #c5d6df;
+  text-decoration: none;
+}
+#top .moduletable_hmenu {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+#bottom .moduletable_hmenu {
+  clear: both;
+}
+#bottom .moduletable_hmenu ul {
+  text-align: center;
+}
+#bottom .moduletable_hmenu li {
+  background: url(../images/menu_divider.png) left no-repeat;
+  padding: 0 6px 0 7px;
+}
+#bottom .moduletable_hmenu li:first-child {
+  background: none;
+}
+#bottom .moduletable_hmenu li > a, #bottom .moduletable_hmenu li > span {
+  color: #333;
+  font-size: 10px;
+  line-height: 22px;
+}
+/* /hmenu */
+/* vmenu */
+/* /vmenu */
+#bottom .moduletable {
+  background: no-repeat;
+  float: left;
+  height: 202px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 20px 23px 15px 47px;
+  position: relative;
+  width: 240px;
+}
+#bottom .moduletable h3 {
+  font-size: 18px;
+  margin: 0 0 15px;
+}
+#bottom .moduletable.green {
+  background-image: url(../images/module_green.png);
+}
+#bottom .moduletable.blue {
+  background-image: url(../images/module_blue.png);
+}
+#bottom .moduletable.grey {
+  background-image: url(../images/module_grey.png);
+}
+/* styles */
+.clr, .clear {
+  clear: both;
+}
+.hidden {
+  display: none;
+}
+/* These selection declarations have to be separate
+   No text-shadow: twitter.com/miketaylr/status/12228805301
+   Also: hot pink! */
+/* TODO Update selection BG color */
+::-moz-selection {
+  background: #c5d6df;
+  color: #333;
+  text-shadow: none;
+}
+::selection {
+  background: #c5d6df;
+  color: #333;
+  text-shadow: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.ie6 .clearfix, .ie7 .clearfix {
+  zoom: 1;
+  display: block;
+}
+/* editor content */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.readmore {
+  background: url(../images/readmore.png) no-repeat;
+  padding-left: 14px;
+}
+.readmore > * {
+  background: url(../images/readmore.png) right -26px no-repeat;
+  color: white !important;
+  display: block;
+  line-height: 26px;
+  padding-right: 14px;
+}
+#bottom .readmore {
+  bottom: 12px;
+  position: absolute;
+  right: 23px;
+}
+.question {
+  color: #0E76BC;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.question + .answer {
+  margin-top: 0;
+}
