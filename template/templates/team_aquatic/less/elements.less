@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 h1:first-child, h2:first-child, h3:first-child,
 h4:first-child, h5:first-child, h6:first-child { margin-top: 0; }
 h1 { font-size: 25px; margin-bottom: 1em; }
-h2 { font-size: 18px; }
+h2 { font-size: 13px; }
 
 p { margin: 1em 0 0; }
 p:first-child { margin-top: 0; }
@@ -26,5 +26,19 @@ a:hover {
 	text-decoration: underline;
 }
 
-
 em { font-style: italic; }
+
+img.left { margin: 0 10px 10px 0; }
+img.right { margin: 0 0 10px 10px; }
+
+#content img {
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+	-webkit-box-shadow: 0 2px 5px #333;
+	-moz-box-shadow: 0 2px 5px #333;
+	box-shadow: 0 2px 5px #333;
+	
+	behavior: url(/templates/team_aquatic/resources/PIE.htc);
+}
