@@ -35,7 +35,7 @@ body.home #content > div {
 }
 body.home #bottom > div > div {
   background: url(../images/divider.png) repeat-x;
-  padding-top: 20px;
+  padding-top: 35px;
 }
 #footer > div > div {
   background: url(../images/divider.png) top repeat-x;
