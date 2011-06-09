@@ -29,3 +29,12 @@
 .question + .answer {
   margin-top: 0;
 }
+.rounded {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 2px 5px #333;
+  -moz-box-shadow: 0 2px 5px #333;
+  box-shadow: 0 2px 5px #333;
+  behavior: url(/templates/team_aquatic/resources/PIE.htc);
+}
