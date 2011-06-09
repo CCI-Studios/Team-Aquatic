@@ -2,13 +2,16 @@
 	border-radius: 13px;
 	position: relative;
 	z-index: 1;
-	
-	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
 
 .mod_slideshow .inner {
-
+	border-radius: 13px;
+	-moz-box-shadow: 0 2px 5px #333;
+	-webkit-box-shadow: 0 2px 5px #333;
+	box-shadow: 0 2px 5px #333;
 	overflow: hidden;
+	
+	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }
 
 .mod_slideshow .details {
@@ -47,12 +50,12 @@
 }
 
 .mod_slideshow .image {
+	height: 250px;
 	position: absolute;
 	right: 100%;
 	top: 0;
+	width: 940px;
 	z-index: 2;
-}
-.mod_slideshow .image img { 
 	border-radius: 13px;
 	behavior: url(/templates/team_aquatic/resources/PIE.htc);
 }

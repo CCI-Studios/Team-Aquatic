@@ -13,8 +13,8 @@
 	
 		<div class="images">
 			<? foreach ($images as $index=>$image): ?>
-			<div class="image <?= ($index == 0)? 'current':'' ?>">
-				<img src="/images/stories/<?= $params->get('path') .'/'. $image?>" alt="" />
+			<div class="image <?= ($index == 0)? 'current':'' ?>" 
+				style="background: url(/images/stories/<?= $params->get('path') .'/'. $image?>) no-repeat;">
 			</div>
 			<? endforeach; ?>
 		</div>
