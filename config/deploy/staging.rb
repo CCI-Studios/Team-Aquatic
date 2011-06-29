@@ -7,4 +7,4 @@ role :app, "ccistaging.com"
 # directories
 set :deploy_to, "/home/staging/subdomains/ta"
 set :public, "#{deploy_to}/public_html"
-set :extensions, %w[com_slideshow plg_ie6 public template]
+set :extensions, %w[com_files com_slideshow plg_ie6 public template]
