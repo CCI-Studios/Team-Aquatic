@@ -1,4 +1,8 @@
 /* editor content */
+.clear {
+  clear: both;
+}
+
 .left {
   float: left;
 }
