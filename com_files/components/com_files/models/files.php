@@ -48,6 +48,8 @@ class ComFilesModelFiles extends KModelAbstract
 			}
 		}
 		
+		natcasesort($dirs);
+		
 		return $dirs;
 	}
 	
@@ -64,6 +66,8 @@ class ComFilesModelFiles extends KModelAbstract
 				}
 			}
 		}
+		
+		natcasesort($files);
 		
 		return $files;
 	}
