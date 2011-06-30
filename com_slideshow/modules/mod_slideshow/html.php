@@ -1,7 +1,7 @@
 <?php
 jimport('joomla.filesystem.folder');
 
-class ModSlideshowHtml extends ModDefaultHtml
+class ModSlideshowHtml extends ModDefaultView
 {
 	public function display()
 	{
