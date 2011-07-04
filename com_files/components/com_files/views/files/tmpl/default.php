@@ -7,9 +7,11 @@
 <? endif; ?>
 
 <? foreach ($items as $client=>$files): ?>
-	<div class="question"><?= $client ?></div>
+	<p class="question"><?= $client ?></p>
 	
-	<div class="answer"><ul><? foreach ($files as $file): ?>
-		<li><a href="<?= $path .'/'. $client .'/'. $file ?>"><?= $file ?></a></li>
-	<? endforeach; ?></ul></div>
+	<div class="answer">
+		<ul><? foreach ($files as $file): ?>
+			<li><a href="<?= $path .'/'. $client .'/'. $file ?>"><?= $file ?></a></li>
+		<? endforeach; ?></ul>
+	</div>
 <? endforeach; ?>
